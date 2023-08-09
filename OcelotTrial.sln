@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "Product.API\Product.API.csproj", "{6E4065CF-308F-4D7D-8C8B-D55A7AE8B32B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.API", "Customer.API\Customer.API.csproj", "{6FDEE261-7B98-4D1E-B1AF-771BF75D62DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWay.API", "GateWay.API\GateWay.API.csproj", "{DFA76082-2DB2-4D42-B108-75E89E0ECB6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E4065CF-308F-4D7D-8C8B-D55A7AE8B32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4065CF-308F-4D7D-8C8B-D55A7AE8B32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4065CF-308F-4D7D-8C8B-D55A7AE8B32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4065CF-308F-4D7D-8C8B-D55A7AE8B32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDEE261-7B98-4D1E-B1AF-771BF75D62DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDEE261-7B98-4D1E-B1AF-771BF75D62DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDEE261-7B98-4D1E-B1AF-771BF75D62DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDEE261-7B98-4D1E-B1AF-771BF75D62DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA76082-2DB2-4D42-B108-75E89E0ECB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA76082-2DB2-4D42-B108-75E89E0ECB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA76082-2DB2-4D42-B108-75E89E0ECB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA76082-2DB2-4D42-B108-75E89E0ECB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
