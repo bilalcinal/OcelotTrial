@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Customer.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[Action]")]
     public class ProductController : ControllerBase
     {
         public IActionResult Index()
@@ -17,13 +17,13 @@ namespace Customer.API.Controllers
 
         }
 
-        [HttpGet("{id}")]
+        [HttpGet]
         public IActionResult Get(int id)
         {
             return Ok(new List<string> { "Kalem", "Kitap", "Silgi", "Defter" }[id]);
         }
 
-        [HttpDelete("[action]")]
+        [HttpDelete]
         public IActionResult Delete()
         {
             return Ok("Silme işlemi başarılı.");

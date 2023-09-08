@@ -15,7 +15,7 @@ namespace Customer.API.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-          return Ok(new List<string> { "Hilmi Celayir", "Saniye Yıldız", "Nevin Yıldız", "Fatih Yılmaz" });
+          return Ok(new List<string> { "Bilal Cinal", "Fatih Copkaya", "Kaan Tokat", "Muhammet Arslan" });
 
         }
     }
