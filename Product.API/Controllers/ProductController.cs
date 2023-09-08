@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Customer.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]/[Action]")]
+    [Route("api/[controller]/[action]")]
     public class ProductController : ControllerBase
     {
         public IActionResult Index()
